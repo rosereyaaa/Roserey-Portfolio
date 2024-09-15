@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  .navbarSection {
+    display: flex;
+    flex-direction: column;
+    color: rgba(102, 123, 198, 1);
+    font: 500 1.25rem Inter, sans-serif; 
+  }
+  
+  .navbarRectangle {
+    background-color: rgba(253, 255, 210, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem 1rem; 
+    gap: 1rem; 
+  }
+  
+  .logo {
+    aspect-ratio: 1.08;
+    object-fit: contain;
+    object-position: center;
+    width: 6rem; 
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 2rem; 
+    margin: auto 0;
+  }
+  
+  .navItem {
+    align-self: stretch;
+    gap: 0.5rem; 
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  /* Media queries for larger screens */
+  @media (min-width: 480px) {
+    .navbarRectangle {
+      padding: 1rem 2rem; 
+    }
+    .navLinks {
+      gap: 3rem; 
+    }
+    .navItem {
+      gap: 1rem; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbarRectangle {
+      padding: 1.5rem 3rem; 
+    }
+    .navLinks {
+      gap: 4rem; /
+    }
+    .navItem {
+      gap: 1.5rem; 
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .navbarRectangle {
+      padding: 2rem 4rem; /* Increase padding for larger screens */
+    }
+    .navLinks {
+      gap: 5rem; /* Increase gap for larger screens */
+    }
+    .navItem {
+      gap: 2rem; /* Increase gap for larger screens */
+    }
+  }

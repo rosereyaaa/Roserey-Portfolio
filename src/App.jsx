@@ -1,10 +1,13 @@
 import './App.css'
 import Navbars from './navigation/navbar'
+import React from 'react';
 
 function App() {
   return (
     <>
-    <Navbars/>
+    <div className="flex flex-col text-xl font-medium text-indigo-500">
+      <Navbars/>
+    </div>
     </>
   )
 }
