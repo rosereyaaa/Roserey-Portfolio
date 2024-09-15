@@ -1,6 +1,6 @@
 # Roserey's Portfolio: Project Overview
 
-*Subject to Change* This repository is for my portfolio. 
+[*Subject to Change*] This repository is for my portfolio. 
 
 ## Technologies
 ![ReactJS](https://img.shields.io/badge/React-0E39A9.svg?style=for-the-badge&logo=React&logoColor=white)
