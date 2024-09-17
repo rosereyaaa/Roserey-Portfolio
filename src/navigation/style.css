@@ -32,6 +32,11 @@
     display: flex;
     gap: 2rem; 
     margin: auto 0;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
   }
   
   .navItem {
