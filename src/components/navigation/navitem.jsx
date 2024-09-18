@@ -4,8 +4,8 @@ import styles from './style.module.css';
 const NavItem = ({ text, link }) => {
   return (
     <div>
-    <a href={link}>{text}</a>
-  </div>
+      <a href={link}>{text}</a>
+    </div>
   );
 };
 

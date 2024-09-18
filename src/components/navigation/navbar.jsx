@@ -21,7 +21,7 @@ const navbar = () => {
         />
         </a>
         <div className={styles.navLinks}>
-        {navItems.map((item, index) => (
+          {navItems.map((item, index) => (
             <NavItem key={index} text={item.text} link={item.link} />
           ))}
         </div>
