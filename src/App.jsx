@@ -4,6 +4,7 @@ import './App.css'
 // Initialization of pages 
 import Navbars from './components/navigation/navbar'
 import HeaderSection from './components/aboutMe/header';
+import Projects from './components/projects/projectSection';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <div className="main">
       <Navbars/>
       <HeaderSection/>
+      <Projects/>
     </div>
     </>
   )
