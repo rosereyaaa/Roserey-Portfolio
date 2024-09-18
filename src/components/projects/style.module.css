@@ -112,24 +112,27 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-  }
-  
-  @media (max-width: 991px) {
+}
+
+@media (max-width: 991px) {
     .container {
-      max-width: 100%;
+        max-width: 100%;
     }
-  }
-  
-  /* .line {
+}
+
+.pinkLine {
+    z-index: 10;
+    display: flex;
+    width: 100%; /* Change this to 100% */
+    max-width: 1269px;
+    min-height: 18px;
+    margin: 49px auto -14px; /* Add auto to the left and right margins */
     border-radius: 20px;
     background-color: rgba(255, 180, 194, 1);
-    display: flex;
-    min-height: 18px;
-    width: 100%;
-  }
-  
-  @media (max-width: 991px) {
-    .line {
-      max-width: 100%;
+}
+
+@media (max-width: 991px) {
+    .pinkLine {
+        margin: 40px 0 10px;
     }
-  } */
+}

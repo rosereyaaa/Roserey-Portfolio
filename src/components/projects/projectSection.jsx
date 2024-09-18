@@ -29,7 +29,6 @@ const projectsData = [
 const projectSection = () => {
     return (
         <div id="projects">
-            {/* <div className={styles.line} role="presentation" /> */}
             <section className={styles.projectSection}>
                 <div className={styles.projectContainer}>
                     <h2 className={styles.projectTitle}>Projects</h2>
@@ -40,6 +39,7 @@ const projectSection = () => {
                     </div>
                 </div>
             </section>
+            <div className={styles.pinkLine} />
         </div>
     );
 };

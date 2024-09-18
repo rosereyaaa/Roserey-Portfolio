@@ -7,7 +7,7 @@ const navbar = () => {
     { text: 'About Me', link: '#about-me' },
     { text: 'Projects', link: '#projects' },
     { text: 'Contacts', link: '/contacts' },
-    { text: 'Resume', link: '/resume' },
+    { text: 'Resume', link: 'https://drive.google.com/file/d/1exNFp2ahis-XjLY3Jm0hrVrdB1HUZoz_/view?usp=sharing' },
   ];
 
   return (
