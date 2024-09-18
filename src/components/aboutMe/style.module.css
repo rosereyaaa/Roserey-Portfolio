@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 .headerSection {
   background-color: rgba(102, 123, 198, 1);
   display: flex;
@@ -6,6 +8,7 @@
   align-items: center;
   justify-content: center;
   padding: 73px 70px;
+  padding-top: 113px;
 }
 
 @media (max-width: 991px) {

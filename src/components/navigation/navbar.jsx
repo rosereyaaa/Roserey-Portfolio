@@ -4,7 +4,7 @@ import NavItem from './navitem';
 
 const navbar = () => {
   const navItems = [
-    { text: 'About Me', link: '/about-me' },
+    { text: 'About Me', link: '#about-me' },
     { text: 'Projects', link: '#projects' },
     { text: 'Contacts', link: '/contacts' },
     { text: 'Resume', link: '/resume' },

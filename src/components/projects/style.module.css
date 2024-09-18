@@ -91,6 +91,10 @@
     white-space: nowrap;
 }
 
+.technologyItem:hover{
+    background-color: #667BC6;
+}
+
 @media (max-width: 991px) {
     .projectCard {
         padding-left: 20px;

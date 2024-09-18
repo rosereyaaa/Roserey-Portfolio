@@ -6,9 +6,14 @@
   
   /* Navbar styles */
   .navbarSection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     display: flex;
     flex-direction: column;
-    font: 500 1.25rem Inter, sans-serif; 
+    font: 500 1.40rem Inter, sans-serif;
   }
   
   .navbarRectangle {
@@ -25,6 +30,7 @@
     object-fit: contain;
     object-position: center;
     width: 6rem; 
+    height: 4rem;
   }
   
   .navLinks {
