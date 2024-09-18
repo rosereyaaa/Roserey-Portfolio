@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.css';
+import styles from './style.module.css';
 
 const navitem = ({ text }) => {
   return (
-    <li className="navItem">
+    <li className={styles.navItem}>
       <a href={`#${text.toLowerCase().replace(' ', '-')}`}>{text}</a>
     </li>
   );

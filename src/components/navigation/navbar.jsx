@@ -1,21 +1,21 @@
 import React from 'react';
-import './style.css';
+import styles from './style.module.css';
 import NavItem from './navitem';
 
 const Navbar = () => {
   const navItems = ['About Me', 'Projects', 'Contacts', 'Resume'];
 
   return (
-    <header className="navbarSection">
-      <nav className="navbarRectangle">
-        <a className='rc-logo'>
+    <header className={styles.navbarSection}>
+      <nav className={styles.navbarRectangle}>
+        <a className="rc-logo">
           <img 
           loading="lazy" 
           src="./rc-logo.svg" 
-          className="logo" 
+          className={styles.logo} 
         />
         </a>
-        <div className="navLinks">
+        <div className={styles.navLinks}>
           {navItems.map((item, index) => (
             <NavItem key={index} text={item} />
           ))}

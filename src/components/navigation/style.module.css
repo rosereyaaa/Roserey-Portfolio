@@ -8,7 +8,6 @@
   .navbarSection {
     display: flex;
     flex-direction: column;
-    color: rgba(102, 123, 198, 1);
     font: 500 1.25rem Inter, sans-serif; 
   }
   
@@ -37,6 +36,7 @@
 
   a {
     text-decoration: none;
+    color: #667BC6;
   }
 
   a:hover{
@@ -80,7 +80,7 @@
       padding: 1.5rem 3rem; 
     }
     .navLinks {
-      gap: 4rem; /
+      gap: 4rem; 
     }
     .navItem {
       gap: 1.5rem; 
