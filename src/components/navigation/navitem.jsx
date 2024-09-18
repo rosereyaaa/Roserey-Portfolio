@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './style.module.css';
 
-const navitem = ({ text }) => {
+const NavItem = ({ text, link }) => {
   return (
-    <li className={styles.navItem}>
-      <a href={`#${text.toLowerCase().replace(' ', '-')}`}>{text}</a>
-    </li>
+    <div>
+    <a href={link}>{text}</a>
+  </div>
   );
 };
 
-export default navitem;
+export default NavItem;

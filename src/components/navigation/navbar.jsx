@@ -2,8 +2,13 @@ import React from 'react';
 import styles from './style.module.css';
 import NavItem from './navitem';
 
-const Navbar = () => {
-  const navItems = ['About Me', 'Projects', 'Contacts', 'Resume'];
+const navbar = () => {
+  const navItems = [
+    { text: 'About Me', link: '/about-me' },
+    { text: 'Projects', link: '#projects' },
+    { text: 'Contacts', link: '/contacts' },
+    { text: 'Resume', link: '/resume' },
+  ];
 
   return (
     <header className={styles.navbarSection}>
@@ -16,8 +21,8 @@ const Navbar = () => {
         />
         </a>
         <div className={styles.navLinks}>
-          {navItems.map((item, index) => (
-            <NavItem key={index} text={item} />
+        {navItems.map((item, index) => (
+            <NavItem key={index} text={item.text} link={item.link} />
           ))}
         </div>
       </nav>
@@ -25,4 +30,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default navbar;
