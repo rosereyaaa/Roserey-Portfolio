@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Project Section CSS */
 
 .projectSection {
@@ -15,7 +17,7 @@
 
 .projectTitle {
     color: #FFFFFF;
-    font: 400 64px 'Life Savers', -apple-system, Roboto, Helvetica, sans-serif;
+    font: 400 64px 'Life Savers', -apple-system, Inter, sans-serif;
     margin-bottom: 24px;
 }
 
@@ -69,7 +71,7 @@
 }
 
 .projectDescription {
-    font-size: 16px;
+    font: 400 16px Inter, sans-serif;
     margin-bottom: 10px;
 }
 
@@ -86,7 +88,7 @@
     border-radius: 20px;
     background-color: #DA7297;
     color: #FFFFFF;
-    font-size: 14px;
+    font: 400 14px Inter, sans-serif;
     padding: 4px 10px;
     white-space: nowrap;
 }
@@ -118,16 +120,16 @@
     }
   }
   
-  .line {
+  /* .line {
     border-radius: 20px;
     background-color: rgba(255, 180, 194, 1);
     display: flex;
     min-height: 18px;
-    width: 90%;
+    width: 100%;
   }
   
   @media (max-width: 991px) {
     .line {
       max-width: 100%;
     }
-  }
+  } */

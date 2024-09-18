@@ -28,6 +28,7 @@ function HeaderSection() {
           </div>
         </div>
       </div>
+      <div className={styles.pinkLine} />
     </header>
   );
 }

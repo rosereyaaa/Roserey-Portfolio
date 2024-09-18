@@ -159,3 +159,20 @@
   white-space: nowrap;
   border: 0;
 }
+
+.pinkLine {
+  z-index: 10;
+  display: flex;
+  width: 1269px;
+  max-width: 100%;
+  min-height: 18px;
+  margin: 49px 0 -14px;
+  border-radius: 20px;
+  background-color: rgba(255, 180, 194, 1);
+}
+
+@media (max-width: 991px) {
+  .pinkLine {
+    margin: 40px 0 10px;
+  }
+}
