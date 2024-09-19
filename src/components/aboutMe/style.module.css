@@ -76,11 +76,12 @@
 .greeting {
   align-self: start;
   font: 96px Life Savers, sans-serif;
+  padding-top: 10rem;
 }
 
 @media (max-width: 991px) {
   .greeting {
-    font-size: 40px;
+    font-size: 70px;
   }
 }
 
@@ -93,7 +94,7 @@
 @media (max-width: 991px) {
   .name {
     margin-top: 40px;
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
