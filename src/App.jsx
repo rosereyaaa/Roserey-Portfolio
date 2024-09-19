@@ -5,6 +5,7 @@ import './App.css'
 import Navbars from './components/navigation/navbar'
 import HeaderSection from './components/aboutMe/header';
 import Projects from './components/projects/projectSection';
+import TechnicalSkills from './components/skills-hobbies/technical';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <div className="main">
       <Navbars/>
       <HeaderSection/>
+      <TechnicalSkills/>
       <Projects/>
     </div>
     </>
