@@ -32,7 +32,7 @@
     width: 6rem; 
     height: 4rem;
   }
-  
+
   .navLinks {
     display: flex;
     gap: 2rem; 
@@ -46,7 +46,7 @@
   }
 
   a:hover{
-    color: #7B98FF;
+    color: #39487E;
   }
   
   .navItem {
@@ -80,18 +80,32 @@
       gap: 1rem; 
     }
   }
-  
-  @media (min-width: 768px) {
-    .navbarRectangle {
-      padding: 1.5rem 3rem; 
-    }
-    .navLinks {
-      gap: 4rem; 
-    }
-    .navItem {
-      gap: 1.5rem; 
-    }
+
+@media (min-width: 768px) {
+  .navLinks {
+    display: flex; /* Show the navigation links on larger screens */
   }
+  .menuBtn {
+    display: none; 
+  }
+}
+
+@media (max-width: 767px) {
+  .navLinks {
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(253, 255, 210, 1); 
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex; 
+    flex-direction: column;
+  }
+  .navItem {
+    margin-bottom: 1rem; /* Add some margin between nav items */
+  }
+}
   
   @media (min-width: 1200px) {
     .navbarRectangle {
