@@ -68,6 +68,13 @@
     aspect-ratio: 1.09;
     object-fit: contain;
     width: 72px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.projectIcon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .projectDescription {
