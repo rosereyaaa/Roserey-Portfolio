@@ -101,17 +101,6 @@
     padding: 10px;
 }
 
-.pinkLine {
-    z-index: 10;
-    display: flex;
-    width: 100%; 
-    max-width: 1269px;
-    min-height: 18px;
-    margin: 49px auto -14px; 
-    border-radius: 20px;
-    background-color: rgba(255, 180, 194, 1);
-}
-
 @media (max-width: 991px) {
     .projectSection {
         padding: 0 20px;
@@ -131,9 +120,5 @@
 
     .container {
         max-width: 100%;
-    }
-
-    .pinkLine {
-        margin: 40px 0 10px;
     }
 }

@@ -39,7 +39,7 @@ const projectSection = () => {
                     </div>
                 </div>
             </section>
-            <div className={styles.pinkLine} />
+
         </div>
     );
 };
