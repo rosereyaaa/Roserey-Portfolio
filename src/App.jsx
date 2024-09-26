@@ -5,7 +5,7 @@ import './App.css'
 import Navbars from './components/navigation/navbar'
 import HeaderSection from './components/aboutMe/header';
 import Projects from './components/projects/projectSection';
-import TechnicalSkills from './components/skills-hobbies/technical';
+import TechnicalSkills from './components/skills/technical';
 
 function App() {
   return (
