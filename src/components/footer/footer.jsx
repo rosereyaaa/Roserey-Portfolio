@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </section>
                 <section className={styles.copyrightSection}>
-                    <p className={styles.copyrightText}>2024, Rosérey</p>
+                    <p className={styles.copyrightText}>©2024, Rosérey</p>
                 </section>
             </footer>
         </div>
