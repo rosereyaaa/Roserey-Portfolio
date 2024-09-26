@@ -1,148 +1,148 @@
 .pinkBox {
-    border-radius: 20px;
-    background-color: #da7297;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: start;
-    padding: 62px 79px;
-    border: 1px solid #000;
+  border-radius: 20px;
+  background-color: #da7297;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  padding: 62px 79px;
+  border: 1px solid #000;
 }
 
 .skillsSection {
-    border-radius: 0;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
 }
 
 .mainContent {
-    background-color: #667bc6;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 45px 80px 90px;
+  background-color: #667bc6;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 80px 90px;
 }
 
 .contentWrapper {
-    display: flex;
-    width: 100%;
-    max-width: 1225px;
-    flex-direction: column;
+  display: flex;
+  width: 100%;
+  max-width: 1225px;
+  flex-direction: column;
 }
 
 .sectionTitle {
-    text-align: center;
-    align-self: start;
-    font: 400 64px Life Savers, -apple-system, Roboto, Helvetica, sans-serif;
+  text-align: center;
+  align-self: start;
+  font: 400 64px Life Savers, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
 .skillsContainer {
-    display: flex;
-    margin-top: 7px;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    font: 800 20px Inter, sans-serif;
+  display: flex;
+  margin-top: 7px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  font: 800 20px Inter, sans-serif;
 }
 
 .skillsList {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    font-size: 16px;
-    color: #000;
-    font-weight: 700;
-    white-space: nowrap;
-    text-align: center;
-    justify-content: start;
-    flex-wrap: wrap;
-    margin: 10px 0 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  white-space: nowrap;
+  text-align: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 10px 0 0 10px;
 }
 
 .categoryTitle {
-    text-align: center;
-    margin-left: 10px;
+  text-align: center;
+  margin-left: 10px;
 }
 
 .skillItem {
-    border-radius: 25px;
-    background-color: #fdffd2;
-    align-self: stretch;
-    display: flex;
-    min-height: 43px;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-    width: 172px;
-    margin: auto 0;
-    padding: 3px 10px;
-    border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #fdffd2;
+  align-self: stretch;
+  display: flex;
+  min-height: 43px;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  width: 172px;
+  margin: auto 0;
+  padding: 3px 10px;
+  border: 1px solid #000;
 }
 
 .skillItem:hover{
-    background-color: #F6FA9C;
+  background-color: #F6FA9C;
 }
 
 .skillIcon {
-    aspect-ratio: 1;
-    object-fit: contain;
-    object-position: center;
-    width: 38px;
-    align-self: stretch;
-    margin: auto 0;
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 38px;
+  align-self: stretch;
+  margin: auto 0;
 }
 
 .skillName {
-    align-self: stretch;
-    margin: auto 0;
+  align-self: stretch;
+  margin: auto 0;
 }
 
 .pinkLine {
-    z-index: 10;
-    display: flex;
-    width: 1269px;
-    max-width: 100%;
-    min-height: 18px;
-    margin: 49px 0 -14px;
-    border-radius: 20px;
-    background-color: rgba(255, 180, 194, 1);
+  z-index: 10;
+  display: flex;
+  width: 1269px;
+  max-width: 100%;
+  min-height: 18px;
+  margin: 49px 0 -14px;
+  border-radius: 20px;
+  background-color: rgba(255, 180, 194, 1);
 }
 
 @media (max-width: 991px) {
-    .pinkBox {
-        max-width: 100%;
-        padding: 0 20px;
-    }
+  .pinkBox {
+      max-width: 100%;
+      padding: 0 20px;
+  }
 
-    .mainContent {
-        max-width: 100%;
-        padding: 0 20px;
-    }
+  .mainContent {
+      max-width: 100%;
+      padding: 0 20px;
+  }
 
-    .contentWrapper {
-        max-width: 100%;
-    }
+  .contentWrapper {
+      max-width: 100%;
+  }
 
-    .sectionTitle {
-        font-size: 40px;
-    }
+  .sectionTitle {
+      font-size: 40px;
+  }
 
-    .skillsContainer {
-        max-width: 100%;
-    }
+  .skillsContainer {
+      max-width: 100%;
+  }
 
-    .skillsList {
-        max-width: 100%;
-        white-space: initial;
-    }
+  .skillsList {
+      max-width: 100%;
+      white-space: initial;
+  }
 
-    .skillItem {
-        white-space: initial;
-    }
+  .skillItem {
+      white-space: initial;
+  }
 
-    .pinkLine {
-        margin: 40px 0 10px;
-    }
+  .pinkLine {
+      margin: 40px 0 10px;
+  }
 }
