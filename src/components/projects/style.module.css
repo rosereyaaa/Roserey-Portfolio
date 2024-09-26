@@ -4,7 +4,7 @@
 
 .projectSection {
     background-color: #667BC6;
-    padding: 93px 80px;
+    padding: 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,20 +25,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-}
-
-@media (max-width: 991px) {
-    .projectSection {
-        padding: 0 20px;
-    }
-
-    .projectTitle {
-        font-size: 40px;
-    }
-
-    .projectGrid {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* Project Card CSS */
@@ -104,12 +90,6 @@
     background-color: #667BC6;
 }
 
-@media (max-width: 991px) {
-    .projectCard {
-        padding-left: 20px;
-    }
-}
-
 .container {
     z-index: 10;
     display: flex;
@@ -121,24 +101,38 @@
     padding: 10px;
 }
 
-@media (max-width: 991px) {
-    .container {
-        max-width: 100%;
-    }
-}
-
 .pinkLine {
     z-index: 10;
     display: flex;
-    width: 100%; /* Change this to 100% */
+    width: 100%; 
     max-width: 1269px;
     min-height: 18px;
-    margin: 49px auto -14px; /* Add auto to the left and right margins */
+    margin: 49px auto -14px; 
     border-radius: 20px;
     background-color: rgba(255, 180, 194, 1);
 }
 
 @media (max-width: 991px) {
+    .projectSection {
+        padding: 0 20px;
+    }
+
+    .projectTitle {
+        font-size: 40px;
+    }
+
+    .projectGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .projectCard {
+        padding-left: 20px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
     .pinkLine {
         margin: 40px 0 10px;
     }

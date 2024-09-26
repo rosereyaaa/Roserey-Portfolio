@@ -11,36 +11,15 @@
   padding-top: 113px;
 }
 
-@media (max-width: 991px) {
-  .headerSection {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-}
-
 .container {
   margin-left: 35px;
   width: 100%;
   max-width: 1057px;
 }
 
-@media (max-width: 991px) {
-  .container {
-    max-width: 100%;
-  }
-}
-
 .contentWrapper {
   gap: 20px;
   display: flex;
-}
-
-@media (max-width: 991px) {
-  .contentWrapper {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0px;
-  }
 }
 
 .textColumn {
@@ -49,12 +28,6 @@
   line-height: normal;
   width: 50%;
   margin-left: 0px;
-}
-
-@media (max-width: 991px) {
-  .textColumn {
-    width: 100%;
-  }
 }
 
 .textContent {
@@ -66,23 +39,10 @@
   font: 400 20px Inter, sans-serif;
 }
 
-@media (max-width: 991px) {
-  .textContent {
-    max-width: 100%;
-    margin-top: 40px;
-  }
-}
-
 .greeting {
   align-self: start;
   font: 96px Life Savers, sans-serif;
   padding-top: 10rem;
-}
-
-@media (max-width: 991px) {
-  .greeting {
-    font-size: 70px;
-  }
 }
 
 .name {
@@ -91,32 +51,12 @@
   font: 900 64px Raleway, sans-serif;
 }
 
-@media (max-width: 991px) {
-  .name {
-    margin-top: 40px;
-    font-size: 50px;
-  }
-}
-
 .description {
   margin: 56px 34px 0 0;
 }
 
-@media (max-width: 991px) {
-  .description {
-    max-width: 100%;
-    margin: 40px 10px 0 0;
-  }
-}
-
 .education {
   margin-top: 23px;
-}
-
-@media (max-width: 991px) {
-  .education {
-    max-width: 100%;
-  }
 }
 
 .imageColumn {
@@ -127,12 +67,6 @@
   margin-left: 20px;
 }
 
-@media (max-width: 991px) {
-  .imageColumn {
-    width: 100%;
-  }
-}
-
 .profileImage {
   aspect-ratio: 0.85;
   object-fit: contain;
@@ -140,13 +74,6 @@
   width: 100%;
   border-radius: 0;
   flex-grow: 1;
-}
-
-@media (max-width: 991px) {
-  .profileImage {
-    max-width: 100%;
-    margin-top: 25px;
-  }
 }
 
 .visually-hidden {
@@ -173,6 +100,57 @@
 }
 
 @media (max-width: 991px) {
+  .headerSection {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .contentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+
+  .textColumn {
+    width: 100%;
+  }
+
+  .textContent {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .greeting {
+    font-size: 70px;
+  }
+
+  .name {
+    margin-top: 40px;
+    font-size: 50px;
+  }
+
+  .description {
+    max-width: 100%;
+    margin: 40px 10px 0 0;
+  }
+
+  .education {
+    max-width: 100%;
+  }
+
+  .imageColumn {
+    width: 100%;
+  }
+
+  .profileImage {
+    max-width: 100%;
+    margin-top: 25px;
+  }
+
   .pinkLine {
     margin: 40px 0 10px;
   }
