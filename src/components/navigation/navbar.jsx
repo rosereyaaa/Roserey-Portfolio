@@ -7,7 +7,7 @@ const Navbar = () => {
     { text: 'About Me', link: '#about-me' },
     { text: 'Projects', link: '#projects' },
     { text: 'Contacts', link: '#contacts' },
-    { text: 'Resume', link: 'https://drive.google.com/file/d/1exNFp2ahis-XjLY3Jm0hrVrdB1HUZoz_/view?usp=sharing' },
+    { text: 'Resume', link: 'https://drive.google.com/file/d/18ZLeKgJy45bx_ejw-egCVBU-4cy3Z7o-/view?usp=sharing' },
   ];
 
   const [menuOpen, setMenuOpen] = useState(false);
