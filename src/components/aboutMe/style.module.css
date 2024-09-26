@@ -41,8 +41,20 @@
 
 .greeting {
   align-self: start;
-  font: 96px Life Savers, sans-serif;
+  font: 700 96px Life Savers, sans-serif;
   padding-top: 10rem;
+  animation: typing 3s steps(30) forwards;
+  overflow: hidden; 
+  white-space: nowrap; 
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .name {
