@@ -1,5 +1,5 @@
 # Roserey's Portfolio: Project Overview
-This repository is for my personal porfolio which showcases my recent projects and highlights my skills.
+This repository is for my portfolio which showcases my recent projects and highlights my skills.
 
 ## Figma Design Link: 
 [Rosérey Portfolio Prototype](https://www.figma.com/design/1qyEx4tbtZT8ZNa6Yz97MY/Ros%C3%A9rey-Portfolio-Prototype?m=auto&t=tfAOv61emZRcpncD-1)
