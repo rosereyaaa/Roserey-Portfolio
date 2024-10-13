@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from './style.module.css';
 
-const SocialIcons = ({ src, alt, width, href}) => {
+const SocialIcons = ({ platform, alt, src, href }) => {
+    const iconClasses = `${styles.socialIcon} ${styles[platform]}`;
+    const imageClasses = `${styles.iconImage} ${styles[`${platform}Image`]}`;
+    
     return (
-        <div className={styles.iconWrapper} style={{ width }}>
-            <a href={href} target="_blank" rel="noopener norefferer">
-                <img loading="lazy" src={src} alt={alt} className={styles.icon} style={{ width }} />
-            </a>
-        </div>
+        <a href={href} target="_blank" rel="noopener norefferer" className={iconClasses}>
+            <img loading="lazy" src={src} alt={alt} className={imageClasses}/>
+        </a>
     );
 };
 
