@@ -9,13 +9,3 @@ This repository is for my portfolio which showcases my recent projects and highl
 ![NodeJS](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
-
-## Project Structure
-* `public/`: Public assets, such as images and fonts
-* `src/`: Source code for the application
-	+ `components/`: Reusable React components
-	+ `containers/`: Container components that wrap other components
-	+ `pages/`: Page-level components
-	+ `App.js`: The main application component
-	+ `index.js`: The entry point for the application
-* `vite.config.js`: Vite configuration file
